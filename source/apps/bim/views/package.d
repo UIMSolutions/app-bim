@@ -1,6 +1,6 @@
-module apps.myname.views;
+module apps.bim.views;
 
 public { // Packages
-  import apps.myname.views.actions;
-  import apps.myname.views.forms;
+  import apps.bim.views.actions;
+  import apps.bim.views.forms;
 }
