@@ -1,1 +1,1 @@
-module apps.bim.routers;
+# Package 📦 apps.bim.routers;
