@@ -1,7 +1,7 @@
-module apps.myname.views.pages;
+module apps.bim.views.pages;
 
 public {
-  import apps.myname.views.pages.header;
-  import apps.myname.views.pages.bodies;
-  import apps.myname.views.pages.footers;
+  import apps.bim.views.pages.header;
+  import apps.bim.views.pages.bodies;
+  import apps.bim.views.pages.footers;
 }

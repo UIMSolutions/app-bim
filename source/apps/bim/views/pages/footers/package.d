@@ -1,2 +1,2 @@
-module apps.myname.views.pages.footers;
+module apps.bim.views.pages.footers;
 

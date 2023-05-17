@@ -1,7 +1,7 @@
-module apps.myname.views.forms;
+module apps.bim.views.forms;
 
 public {
-  import apps.myname.views.forms.header;
-  import apps.myname.views.forms.bodies;
-  import apps.myname.views.forms.footers;
+  import apps.bim.views.forms.header;
+  import apps.bim.views.forms.bodies;
+  import apps.bim.views.forms.footers;
 }

@@ -1,2 +1,2 @@
-module apps.myname.views.forms.bodies;
+module apps.bim.views.forms.bodies;
 

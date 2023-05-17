@@ -1,3 +1,3 @@
-# Package 📦 apps.myname.views.forms
+# Package 📦 apps.bim.views.forms
 
 

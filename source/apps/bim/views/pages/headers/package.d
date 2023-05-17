@@ -1,2 +1,2 @@
-module apps.myname.views.pages.headers;
+module apps.bim.views.pages.headers;
 
