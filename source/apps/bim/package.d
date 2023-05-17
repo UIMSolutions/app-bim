@@ -20,6 +20,7 @@ public import langs.javascript;
 public {
   import apps.bim.controllers;
   import apps.bim.helpers;
+  import apps.bim.routers;
   import apps.bim.tests;
   import apps.bim.views;
 }

@@ -1,1 +1,1 @@
-module dbs.bim.helpers;
+module apps.bim.helpers;
