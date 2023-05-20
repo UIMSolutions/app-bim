@@ -31,6 +31,6 @@ static this() {
     App
     .name("bimApp")
     .rootPath("/apps/bim")
-    .addRoute(Route("", HTTPMethod.GET, BIMIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, BIMIndexPageController)));
+    .addRoute(Route("", HTTPMethod.GET, IndexPageController))
+    .addRoute(Route("/", HTTPMethod.GET, IndexPageController)));
 }

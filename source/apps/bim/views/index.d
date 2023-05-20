@@ -3,11 +3,11 @@ module apps.bim.views.index;
 import apps.bim;
 @safe:
 
-class DBIMIndexView : DView {
-  mixin(ViewThis!("BIMIndexView"));
+class DIndexView : DView {
+  mixin(ViewThis!("IndexView"));
 
   override DH5Obj[] toH5(STRINGAA options = null) {
-    debugMethodCall(moduleName!DBIMIndexView~":DBIMIndexView("~this.name~")::toH5");
+    debugMethodCall(moduleName!DIndexView~":DIndexView("~this.name~")::toH5");
     super.toH5(options);
 
     return [
@@ -15,4 +15,4 @@ class DBIMIndexView : DView {
     ].toH5;
   }
 }
-mixin(ViewCalls!("BIMIndexView"));
+mixin(ViewCalls!("IndexView"));
