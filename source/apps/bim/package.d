@@ -25,11 +25,12 @@ public {
   import apps.bim.views;
 }
 
-DApp bimApp;
+@safe:
 static this() {
-  bimApp = App
+  AppRegistry.register("apps.bim", 
+    App
     .name("bimApp")
     .rootPath("/apps/bim")
     .addRoute(Route("", HTTPMethod.GET, BIMIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, BIMIndexPageController));
+    .addRoute(Route("/", HTTPMethod.GET, BIMIndexPageController)));
 }
