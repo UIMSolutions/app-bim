@@ -1,18 +1,18 @@
-module apps.bim.controllers.actions.create;
+module apps.bim.controllers.actions.update;
 
 import apps.bim;
 @safe:
 
-class DBIMCreateActionController : DCreateActionController {
-  mixin(ControllerThis!("BIMCreateActionController"));
+class DBIMUpdateActionController : DUpdateActionController {
+  mixin(ControllerThis!("BIMUpdateActionController"));
 
   override void initialize(Json configSettings = Json(null)) {
     super.initialize(configSettings);
-
+    
     this
     .checks([
       AppSessionHasSessionCheck, AppSessionHasSiteCheck, // AppSession related checks
       DatabaseHasAccountsCheck]); // Database related checks  
   }
 }
-mixin(ControllerCalls!("BIMCreateActionController"));
+mixin(ControllerCalls!("BIMUpdateActionController"));
