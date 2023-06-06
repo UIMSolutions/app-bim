@@ -3,7 +3,7 @@ module apps.bim.controllers.actions.delete_;
 import apps.bim;
 @safe:
 
-class DBIMDeleteActionController : DBIMDeleteActionController {
+class DBIMDeleteActionController : DDeleteActionController {
   mixin(ControllerThis!("BIMDeleteActionController"));
 
   override void initialize(Json configSettings = Json(null)) {
