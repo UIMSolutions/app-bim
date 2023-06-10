@@ -3,7 +3,7 @@ module apps.bim.controllers.pages.index;
 import apps.bim;
 @safe:
 
-class DIndexPageController : DAPPPageController {
+class DIndexPageController : DPageController {
   mixin(ControllerThis!("IndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {

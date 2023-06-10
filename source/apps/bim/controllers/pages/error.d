@@ -3,7 +3,7 @@ module apps.bim.controllers.pages.error;
 import apps.bim;
 @safe:
 
-class DBIMErrorPageController : DAPPPageController {
+class DBIMErrorPageController : DPageController {
   mixin(ControllerThis!("BIMErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
