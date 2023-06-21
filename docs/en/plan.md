@@ -1,0 +1,24 @@
+The planning process consists of several steps:
+
+An object planner, e.g. an architect in the case of buildings, usually creates a design with the help of CAD systems. The building goes through various life cycle phases: - requirements planning,
+- Draft,
+- execution planning,
+- tender,
+- construction phase,
+- Installation,
+- use,
+- change of use,
+- Renovation and
+- demolition.
+
+In each phase, those involved in the project (architects, engineers, specialist planners, authorities, etc.) will generate a large number of documents that reflect the current status of the building. The exchange of information about data exchange standards.
+
+In addition to the planning of qualities based on drawings, calculations and technical data, a quantity determination is created for cost determination according to DIN 276. The drawings form the basis for this. This requires a linking of the geometries with qualitatively and monetarily defined service components so that the individual quantity details can be summed up in service items or imputed partial services. Thus, changes in the planning that require a graphic adjustment usually also affect the quantity or cost determination. All those involved then receive updated drawings and have to compare them with their specialist planning. This causes a considerable amount of coordination and work. The third important pillar in the planning process is the scheduling. Like the quality and cost determination, this is worked out in more and more detail as the planning process progresses.
+
+Leistungsfähige Modelliersoftware, die Verfügbarkeit von ausreichend leistungsstarker Hardware und eine schnelle Vernetzung über das Internet machen es möglich, mit sogenannten Building Information Models (BIMs) den Planungsprozess fundamental zu verändern.[2] Die dreidimensionalen Gebäudemodelle müssen hierfür von allen Projektbeteiligten mit den relevanten Informationen gefüllt werden. Hierbei sind die geometrischen Daten nur ein kleiner Teil der einzufügenden Informationen: Jedes Bauteil wird durch eine Vielzahl von Attributen beschrieben. Hierzu zählen neben technischen Daten zur Qualität auch Kosten- und Terminplanungsinformationen. Der Informationsgrad wird in dem Blatt 1 zur VDI 2552 als Level of Information beschrieben. Er gliedert sich von 0 für „keine Informationen“ bis 500 für, Zitat: "Hinreichend detailliert für eine produktspezifische Ausschreibung. Objekte können darüber hinaus Betriebstechnische Eigenschaften und Betriebsrelevante Funktionsbeschreibungen enthalten."[3]
+
+Das Erarbeiten dieser Information im Planungsprozess funktioniert idealerweise in einer Cloud-Lösung, bei der alle in einem Modell arbeiten. So werden die einzelnen Planungschritte transparent, weil jeder sehen kann welche Auswirkungen sein Handeln auf andere Gebäudeteile hat. Entscheidet zum Beispiel der Statiker, dass eine tragende Stütze breiter werden muss, dann kann es passieren, dass die in diesem Bereich verlaufende Kabeltrasse verschoben werden muss. Oder es können sich aufgrund von Änderungen im Grundriss Zahl und Beschreibung der Türen in einem Gebäude ändern. Der Architekt ändert die Türen im virtuellen Gebäudemodell. Damit wird automatisch die Türliste verändert und durch eine entsprechende Verknüpfung wird auch die unmittelbare Auswirkung auf die Kostenermittlung generiert. Der Datenaustausch einzelner Planungsstände innerhalb des Projektteams entfällt damit.[4]
+
+Allerdings müssen die Projektbeteiligten bei dem digitalen Planungsprozess weiterhin koordiniert werden. Diese Funktion wird in der Regel von einem BIM-Manager übernommen, welcher Regeln zum Workflow aufstellt, erklärt und die Einhaltung überwacht.[5] Ein weiterer Vorteil von Gebäudemodellen aus einem BIM-Planungsprozess ist, dass sie als intelligente Wissensdatenbank im gesamten Lebenszyklus eines Bauwerkes oder einer baulichen Anlage eingesetzt werden können. Hierzu sollten allerdings die für den Betrieb wichtigen Informationen wie zum Beispiel Wartungszyklen von Feststellanlagen an Türen, Brandmeldern usw. in dem Model hinterlegt werden.[6]
+
+Zahlreiche Untersuchungen weisen das BIM-Potential als Katalysator aus, der die Fragmentierung des Planungs- und Bauprozesses wesentlich reduziert, die Effizienz steigert und Planungskosten (durch die Minimierung der Änderungen) senkt.[7] Der verstärkte Einzug von Building Information Modeling verspricht eine fundamentale Veränderung des Planungs-, Errichtungs- und Betriebsprozesses von Gebäuden. Somit bezeichnet BIM eine durch die Digitalisierung getriebene prozedurale Veränderung in der Gestaltung, Nutzung und dem Betrieb (Facility Management) von Gebäuden. Es stellt einen Paradigmenwechsel in Richtung lebenszyklischer, integraler Planung dar. Integrale Planung ohne BIM ist realisierbar, aber eine konsequente Umsetzung von BIM ohne integrale Planung ist nicht machbar.[8][9]

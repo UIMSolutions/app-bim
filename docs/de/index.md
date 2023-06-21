@@ -1,0 +1,3 @@
+# APP-BIM
+
+Der Begriff Building Information Modeling (kurz: BIM) beschreibt eine Arbeitsmethode für die vernetzte Planung, den Bau und die Bewirtschaftung von Gebäuden und anderen Bauwerken mithilfe von Software. Dabei werden alle relevanten Bauwerksdaten digital modelliert, kombiniert und erfasst. Das Bauwerk ist als virtuelles Modell auch geometrisch visualisiert (Computermodell). Building Information Modeling findet Anwendung sowohl im Bauwesen zur Bauplanung und Bauausführung als auch im Facilitymanagement.
