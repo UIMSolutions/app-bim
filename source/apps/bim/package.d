@@ -28,9 +28,11 @@ public {
 @safe:
 static this() {
   AppRegistry.register("apps.bim", 
-    App
-    .name("bimApp")
-    .rootPath("/apps/bim")
-    .addRoute(Route("", HTTPMethod.GET, IndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, IndexPageController)));
+    App("bimApp", "/apps/bim")
+      .importTranslations()
+      .addRoutes(
+        Route("", HTTPMethod.GET, IndexPageController),
+        Route("/", HTTPMethod.GET, IndexPageController)
+      )
+    );
 }
