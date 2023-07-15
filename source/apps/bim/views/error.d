@@ -15,7 +15,7 @@ class DBIMErrorView : DView {
     super.toH5(options);
 
     return [
-      H5Div("APP Bim -> Error")
+      H5Div("APP BIM -> Error")
     ].toH5;
   }
 }
