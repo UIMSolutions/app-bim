@@ -2,8 +2,10 @@ module apps.bim;
 
 mixin(ImportPhobos!());
 
-// Dub
-public import vibe.d;
+// External
+public {
+  import vibe.d;
+}
 
 // UIM
 public import uim.core;
@@ -27,12 +29,17 @@ public {
 
 @safe:
 static this() {
-  AppRegistry.register("apps.bim", 
-    App("bimApp", "apps/bim")
-      .importTranslations()
-      .addRoutes(
-        Route("", HTTPMethod.GET, IndexPageController),
-        Route("/", HTTPMethod.GET, IndexPageController)
-      )
+  auto myApp = App("bimApp", "apps/bim");
+  with(myApp) {
+    importTranslations();
+    addControllers([
+      "bim.index": IndexPageController
+    ]);
+    addRoutes(
+      Route("", HTTPMethod.GET, controller("bim.index")),
+      Route("/", HTTPMethod.GET, controller("bim.index"))
     );
+  }
+
+  AppRegistry.register("apps.bim", myApp);
 }
